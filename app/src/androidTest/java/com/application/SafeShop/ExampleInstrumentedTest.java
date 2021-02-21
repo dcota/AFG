@@ -1,4 +1,4 @@
-package com.application.afg;
+package com.application.SafeShop;
 
 import android.content.Context;
 

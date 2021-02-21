@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:id="@+id/imageIv"
+            android:src="@mipmap/ic_launcher"/>
+
+
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toEndOf="@id/imageIv"
+            android:layout_toRightOf="@id/imageIv"
+            android:layout_marginTop="17dp"
+            android:text="line1"
+            android:textSize="12sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="line2"
+            android:textSize="12sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/imageIv"
+            android:layout_toEndOf="@id/imageIv"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/line1"
+            />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageIv2"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginStart="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/imageIv"
+            android:layout_toRightOf="@id/imageIv"
+            android:layout_marginLeft="200dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
