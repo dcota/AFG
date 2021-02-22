@@ -25,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private ArrayList<Model> getMyList(){
+
         //aqui tem de fazer o request e criar arraylists
+
         Model m = new Model();
         int lot = 25;
         int cont = 5;

@@ -11,7 +11,8 @@ public class MyHolder extends RecyclerView.ViewHolder {
 
     ImageView mImageView;
     ImageView mImageView1;
-    TextView mLine1, mLine2;
+    TextView mLine1;
+    TextView mLine2;
 
     public MyHolder(@NonNull View itemView) {
         super(itemView);
